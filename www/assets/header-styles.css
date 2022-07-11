@@ -1,0 +1,146 @@
+a {
+    color: var(--dbp-override-content);
+    font-weight: 700;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    min-height: 310px;
+    background-color: var(--dbp-override-background);
+    padding-left: 10rem; /*14*/
+    padding-top: 7rem;
+    background-image: url('dbp_logo_chevrons_on_white.svg');
+    background-repeat: no-repeat;
+    background-position: 17rem -20px; /*21*/
+    background-size: 30rem;
+    position: sticky;
+    top: -348px;
+    z-index: 20;
+}
+
+.light-theme .header{
+    background-image: url('dbp_logo_chevrons_on_white.svg');
+}
+
+.dark-theme .header{
+    background-image: url('dbp_logo_chevrons_on_black.svg');
+}
+
+.border-shadow {
+    -webkit-box-shadow: 0 10px 35px var(--content-shadow);
+    box-shadow: 0 10px 35px var(--content-shadow);
+}
+
+.header a {
+    color: var(--dbp-override-content);
+    text-decoration: none;
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    letter-spacing: 0.1rem;
+}
+
+.header-top {
+    position: sticky;
+    top: 0;
+    background-color: var(--dbp-override-background);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 30;
+}
+
+.header-subtitle {
+    font-size: 1.15rem;
+}
+
+.header-bottom {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: var(--dbp-override-background);
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 35px var(--content-shadow);
+    box-shadow: 0 10px 35px var(--content-shadow);
+    height: 80px;
+}
+
+.header-top .logo {
+    padding-left: 4rem;
+}
+
+.header-top .logo img {
+    width: 270px;
+}
+
+.header-top .contact {
+    padding-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-top .contact a{
+    display: flex;
+}
+
+.header-top .contact img {
+    padding-right: 0.5rem;
+    width: 1.2rem;
+}
+
+
+@media (max-width: 768px) {
+
+    .mobile-hidden {
+        display: none;
+    }
+
+    .header {
+        padding-left: 0;
+        padding-top: 0;
+        text-align: center;
+        padding-bottom: 2rem;
+        min-height: 100px;
+        top: -72px;
+    }
+
+    .border-shadow {
+        -webkit-box-shadow: 0 8px 12px rgb(212 212 212);
+        box-shadow: 0 8px 12px rgb(212 212 212);
+    }
+
+    .header-title {
+        font-size: 1.5rem;
+        padding-top: 0.4rem;
+    }
+
+    .header-top .logo {
+        padding-left: 0.5rem;
+        padding-top: 0.7rem;
+    }
+
+    .header-top .logo img {
+        width: 2.5rem;
+        content: url('www/assets/dbp_logo_small_on_white.svg');
+    }
+
+    .header-top .contact {
+        padding-top: 1.2rem;
+        padding-right: 0.8rem;
+    }
+
+    .header-top .contact img {
+        width: 1.5rem;
+        padding-left: 0.8rem;
+        padding-right: 0;
+    }
+
+
+}

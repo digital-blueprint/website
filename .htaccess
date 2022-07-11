@@ -1,0 +1,11 @@
+# DirectoryIndex /www/index.html index.html
+
+ErrorDocument 400 /www/error.html
+
+ErrorDocument 401 /www/error.html
+
+ErrorDocument 403 /www/error.html
+
+ErrorDocument 404 /www/error.html
+
+ErrorDocument 500 /www/error.html

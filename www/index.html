@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="white"/>
+
+    <!-- Meta Data for Search Engines -->
+    <meta title="digital blueprint">
+    <meta name="description" content="digital blueprint | a university toolbox" />
+
+    <!-- Meta Data for open graph(facebook & co) -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="digital blueprint" />
+    <meta property="og:description" content="A university toolbox" />
+    <meta property="og:url" content="https://digital-blueprint.org/" />
+    <meta property="og:site_name" content="digital blueprint" />
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/icon/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="assets/icon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
+    <link rel="manifest" href="assets/digital-blueprint.webmanifest">
+    <link rel="mask-icon" href="assets/icon/safari-pinned-tab.svg" color="#3775c1">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+
+    <title>digital blueprint</title>
+
+    <!-- Prevent Chrome/Edge from suggesting to translate the page -->
+    <meta name="google" content="notranslate">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/styles.css">
+
+    <script type="module" src="node_modules/@dbp-toolkit/theme-switcher/dist/dbp-theme-switcher.js"></script>
+
+</head>
+
+<body>
+
+<section id="hero">
+    <img class="hero-logo" src="assets/dbp_logo_on_black.svg" alt="digital blueprint Logo">
+    <a href="#section-1" title="What is digital-blueprint?">
+        <svg class="scroll-down" width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </a>
+</section>
+
+<header>
+    <div class="header-content">
+        <a href="/" class="logo">
+            <img class="light-logo" src="assets/dbp_logo_on_white.svg" alt="digital blueprint Logo colored">
+            <img class="dark-logo" src="assets/dbp_logo_on_black.svg" alt="digital blueprint Logo monochrom">
+        </a>
+        <div class="menu">
+            <dbp-theme-switcher dropdown-right
+                    themes='[{"class": "light-theme", "icon": "sun", "name": "Light Mode"},
+            {"class": "dark-theme", "icon": "night", "name": "Dark Mode"}]'>
+            </dbp-theme-switcher>
+
+            <a href="mailto:hello@digital-blueprint.org" title="Mail to hello@digital-blueprint.org">
+                <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 9L12 12.5L17 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 17V7C2 5.89543 2.89543 5 4 5H20C21.1046 5 22 5.89543 22 7V17C22 18.1046 21.1046 19 20 19H4C2.89543 19 2 18.1046 2 17Z" stroke="currentColor" stroke-width="1.5"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</header>
+
+<div class="content">
+
+    <div class="text-center">
+        <section id="section-1">
+            <div class="section-content">
+                <h1>digital blueprint</h1>
+                <div class="header-subtitle">What is this?</div>
+                <p>Digital Blueprint is a project that aims to build all the neccessary tools and processes to develop applications that are usable for a wide range of higher education institutions. Apps using this framework are able to seamlessly connect to existing local systems, can be adapted to specific CI/CD requirements and are available as open source in popular repositories.</p>
+            </div>
+        </section>
+        <section id="section-2">
+            <a href="mailto:hello@digital-blueprint.org">Request a demo account</a>
+
+        </section>
+
+        <section id="section-3">
+            <h2>Our Software</h2>
+            <div class="header2-subtitle">What is avaible now?</div>
+            <div class="software-tabs">
+                <div class="tab-on">
+                    <div>
+                        <img src="assets/img/greenlight_appicon_dbp.png" alt="greenlight app logo">
+                        <div class="tab-text">
+                            <h3>greenlight</h3>
+                            <p>
+                                Creates an entrance ticket and imports your evidence of low epidemiological risk on your mobile device to validate it for admission - even before attending a course or exam. The ticket then enables you to access the university premises quickly and efficiently.
+                            </p>
+
+                        </div>
+                    </div>
+                    <a class="link" href="https://dbp-demo.tugraz.at/site/software/greenlight.html" target="_blank" title="greenlight information">
+                        More Information
+                    </a>
+                </div>
+
+                <div class="tab-on">
+                    <div>
+                        <img src="assets/img/checkin_appicon_dbp.png" alt="check-in app logo">
+                        <div class="tab-text">
+                            <h3>check-in</h3>
+                            <p>
+                                A easy to use location based contact tracing system. Check-in to your seat via a QR-Code and help fight the pandemic!
+                            </p>
+
+                        </div>
+                    </div>
+                    <a class="link" href="https://dbp-demo.tugraz.at/site/software/check-in.html" target="_blank" title="check-in information">
+                        More Information
+                    </a>
+                </div>
+
+                <div class="tab-on">
+                    <div>
+                        <img src="assets/img/esign_appicon_dbp.png" alt="esign app logo">
+                        <div class="tab-text">
+                            <h3>esign</h3>
+                            <p>
+                                DBP esign is an electronic signature service that can sign documents using an advanced or qualified signature. The application provides a mobile first user interface, and can easily be connected to existing systems using APIs.
+                            </p>
+                        </div>
+                    </div>
+                <a class="link" href="https://dbp-demo.tugraz.at/site/software/esign.html" target="_blank" title="esign information">
+                    More Information
+                </a>
+
+            </div>
+        </section>
+
+        <section id="section-4">
+            Your university needs these apps?
+            <a href="https://dbp-demo.tugraz.at/site/" target="_blank" title="Installation guide">Installation Guides</a>
+
+        </section>
+
+        <section id="section-5">
+            <h2>Coming soon</h2>
+            <div class="header2-subtitle">What is in development now?</div>
+            <div class="software-tabs">
+                <div class="tab-on">
+                    <img src="assets/img/plan_appicon_dbp.png" alt="plan app logo">
+                    <div class="tab-text">
+                        <h3>plan</h3>
+                        <p>
+                            Hybrid project management for agile teams.
+                    </div>
+                </div>
+
+                <div class="tab-on">
+                    <img src="assets/img/dualdelivery_appicon_dbp.png" alt="dualdelivery app logo">
+                    <div class="tab-text">
+                        <h3>dual delivery</h3>
+                        <p>
+                            Postal and electronic delivery of documents.
+                    </div>
+                </div>
+
+                <div class="tab-on">
+                    <img src="assets/img/mono_appicon_dbp.png" alt="mono app logo">
+                    <div class="tab-text">
+                        <h3>mono</h3>
+                        <p>
+                            Electronic payments for universities.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+</div>
+<footer>
+    <p>
+        <a href="mailto:hello@digital-blueprint.org" class="hello">hello@digital-blueprint.org</a>
+        <br>
+        <br>
+        <a href="imprint.html" title="imprint and partners">imprint</a> <span>|</span>
+        <a href="https://dbp-demo.tugraz.at/site/" target="_blank" title="Installation and guide">installation guides</a> <span>|</span>
+        <a href="https://gitlab.tugraz.at/dbp" target="_blank" title="gitlab">view on gitlab</a> <span>|</span>
+        <a href="mailto:hello@digital-blueprint.org">get a demo account</a>
+    </p>
+</footer>
+<note>
+    We&nbsp;
+    <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M22 8.86222C22 10.4087 21.4062 11.8941 20.3458 12.9929C17.9049 15.523 15.5374 18.1613 13.0053 20.5997C12.4249 21.1505 11.5042 21.1304 10.9488 20.5547L3.65376 12.9929C1.44875 10.7072 1.44875 7.01723 3.65376 4.73157C5.88044 2.42345 9.50794 2.42345 11.7346 4.73157L11.9998 5.00642L12.2648 4.73173C13.3324 3.6245 14.7864 3 16.3053 3C17.8242 3 19.2781 3.62444 20.3458 4.73157C21.4063 5.83045 22 7.31577 22 8.86222Z" stroke="currentColor" stroke-linejoin="round"/>
+    </svg>
+    &nbsp;open source!
+</note>
+</body>
+<script>
+    let anchorlinks = document.querySelectorAll('a[href^="#"]')
+
+    console.log("ehm", anchorlinks);
+    for (let item of anchorlinks) { // relitere
+        console.log("bla", item);
+        item.addEventListener('click', (e)=> {
+            console.log("hum", item);
+            let hashval = item.getAttribute('href')
+            let target = document.querySelector(hashval)
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            })
+            history.pushState(null, null, hashval)
+            e.preventDefault()
+        })
+    }
+</script>
+</html>

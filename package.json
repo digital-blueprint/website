@@ -1,0 +1,19 @@
+{
+  "name": "dbp-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "www/index.html",
+  "dependencies": {
+    "@dbp-toolkit/theme-switcher": "0.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.tugraz.at:dbp/dbp-intro.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

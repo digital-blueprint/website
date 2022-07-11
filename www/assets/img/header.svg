@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 768">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Unbenannter_Verlauf_7);
+      }
+
+      .cls-2 {
+        fill: url(#Unbenannter_Verlauf_18);
+        opacity: .9;
+      }
+
+      .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: url(#Unbenannter_Verlauf_17);
+        opacity: .5;
+      }
+    </style>
+    <linearGradient id="Unbenannter_Verlauf_18" data-name="Unbenannter Verlauf 18" x1="-1484.03" y1="-796.68" x2="-1160.65" y2="-796.68" gradientTransform="translate(-2057.42 -3704.19) rotate(-96.49) scale(2.91 -2.84) skewX(12.67)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#073d84"/>
+      <stop offset=".84" stop-color="#003c8b" stop-opacity=".64"/>
+      <stop offset="1" stop-color="#004eb5" stop-opacity=".6"/>
+    </linearGradient>
+    <radialGradient id="Unbenannter_Verlauf_17" data-name="Unbenannter Verlauf 17" cx="179.15" cy="-66.9" fx="179.15" fy="-66.9" r="214.38" gradientTransform="translate(-653.61 308.02) rotate(-100.91) scale(2.05 -12.2) skewX(53.52)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2295ff" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#2295ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="Unbenannter_Verlauf_7" data-name="Unbenannter Verlauf 7" cx="487.01" cy="-33.48" fx="487.01" fy="-33.48" r="182.43" gradientTransform="translate(-2893.55 12454.89) rotate(-79.65) scale(26.94 -18.19) skewX(7.49)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b34d4d" stop-opacity="0"/>
+      <stop offset="1" stop-color="red"/>
+    </radialGradient>
+  </defs>
+  <rect id="rect62862-8" class="cls-2" width="1366" height="768"/>
+  <rect id="rect62862" class="cls-3" width="1366" height="768"/>
+  <polygon id="rect62862-7" class="cls-1" points="0 768 0 0 1366 1 1366 768 0 768"/>
+</svg>
