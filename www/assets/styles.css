@@ -123,6 +123,11 @@ body {
     letter-spacing: 0.5px;
     background-color: var(--dbp-override-background);
     color: var(--dbp-override-content);
+
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 body.smallcontent{
@@ -182,6 +187,9 @@ header .logo, header .logo img{
     align-items: center;
     padding: 10px;
     box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+
 }
 
 .hero-logo{
@@ -343,10 +351,16 @@ footer{
     text-align: center;
     background: var(--dbp-override-content);
     margin: 0px;
-    padding: 50px;
     color: var(--dbp-override-background);
     margin-top: auto;
+
+    margin-top:auto;
 }
+
+footer p{
+    padding: 50px;
+}
+
 footer a{
     color: var(--dbp-override-background);
     text-decoration: none;
@@ -428,8 +442,12 @@ note{
         gap:20px
     }
 
-    #section-1, #section-3, #section-5, footer{
+    #section-1, #section-3, #section-5{
         padding: 50px 10px;
+    }
+
+    footer{
+        padding: 0;
     }
 
     #section-2, #section-4{
