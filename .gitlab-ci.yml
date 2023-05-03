@@ -1,0 +1,24 @@
+image: debian:bullseye
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  except:
+    - schedules
+  only:
+    refs:
+      - main
+  inherit:
+    variables: false
+  variables:
+    UPSTREAM_PROJECT_PATH: ${CI_PROJECT_PATH}
+    UPSTREAM_COMMIT_BRANCH: ${CI_COMMIT_BRANCH}
+    UPSTREAM_COMMIT_SHA: ${CI_COMMIT_SHA}
+  trigger:
+    project: dbp/deployer
+    strategy: depend
