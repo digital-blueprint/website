@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf www/assets/js/theme-switcher && cp -r node_modules/@dbp-toolkit/theme-switcher/dist www/assets/js/theme-switcher"
   },
   "repository": {
     "type": "git",
