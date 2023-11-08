@@ -8,17 +8,15 @@ stages:
 
 deploy:
   stage: deploy
-  except:
-    - schedules
   only:
     refs:
       - main
-  inherit:
-    variables: false
-  variables:
-    UPSTREAM_PROJECT_PATH: ${CI_PROJECT_PATH}
-    UPSTREAM_COMMIT_BRANCH: ${CI_COMMIT_BRANCH}
-    UPSTREAM_COMMIT_SHA: ${CI_COMMIT_SHA}
-  trigger:
-    project: dbp/deployer
-    strategy: depend
+  tags:
+    - dbp01-runner01
+  image: docker:stable
+  services:
+    - docker:dind
+  script:
+    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+    - docker build -t $CI_REGISTRY_IMAGE/$CI_COMMIT_BRANCH .
+    - docker push $CI_REGISTRY_IMAGE/$CI_COMMIT_BRANCH
